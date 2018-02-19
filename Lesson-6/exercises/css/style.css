@@ -1,0 +1,170 @@
+/* Main Styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #272731;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+h2 {
+  color: #EEC36D;
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+h3 {
+  color: #EEC36D;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+
+/* Image Code */
+img {
+  max-width: 100%;
+}
+
+/* List styles */
+ul {
+  margin-bottom: 16px;
+  display:inline-block;
+  color: #333;
+}
+li {
+display:inline-block;
+}
+
+/* Links */
+a {
+  color: pink;
+}
+a:hover, a:focus {
+  color: orange;
+}
+
+
+/* Paragraphs */
+p {
+  margin-bottom: 16px;
+}
+
+
+/* General Styles */
+header {
+    overflow: auto;
+}
+header h1 {
+  float: left;
+}
+header nav {
+  clear: left;
+}
+
+.line-up{
+  display: inline-block;
+
+  font-size: 2em;
+}
+
+
+
+
+/* Display Example Styles */
+span {
+  color: turquoise;
+}
+strong {
+  color: pink;
+}
+.div-example {
+  background-color: coral;
+  padding: 24px;
+  margin: 16px auto;
+  max-width: 50%;
+}
+.img-half {
+  margin: 16px 0;
+  width: 45%;
+}
+.line-up li {
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+/* Position Exercise Examples */
+.cat {
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.cat--four {
+  background-image: url(../images/sphynx-cat.jpg);
+  float: left;
+  min-height: 40em;
+  width: 25%;
+  position: relative;
+
+
+}
+
+.overlay {
+
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 0, 0, 0.5);
+  top:0;
+  left:0;
+  opacity: 1;
+  padding: 10em 5em;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+}
+
+.overlay:hover {
+  opacity: 0;
+}
+
+.cat--three {
+  float: left;
+  width: 33.3%;
+/* Three column cat styles here! */
+}
+
+/* EM / REM Exercise Examples */
+.div-font-size {
+  font-size: 4em;
+}
+.div-font-size h2 {
+  color: #63B2FF;
+}
+.h2-em {
+  font-size: 2em;
+}
+.h2-rem {
+  font-size: 2rem;
+}
+.h2-px {
+  font-size: 32px;
+}

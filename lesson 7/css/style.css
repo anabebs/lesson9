@@ -1,0 +1,68 @@
+*{
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+
+}
+
+html{
+  font-size: 16px;
+}
+
+img{
+
+  max-width:100%;
+}
+
+h1{
+
+  font-size: 5em;
+}
+
+h2{
+
+  font-size: 2em;
+}
+h3{
+
+  font-size: 2.25em
+}
+
+
+h4{
+    font-size: 2em;
+  }
+
+  h5{
+      font-size: 1.5em;
+    }
+
+/*exercise*/
+
+.block--triple, block--double{
+  width:100%;
+}
+.block{
+  float:left;
+  border: 1em solid black;
+  min-height: 30em;
+}
+
+.block--triple {
+  background: limegreen;
+  width:33.3%;
+}
+
+.block--double {
+  width:50%;
+  background: pink;
+}
+
+@media screen and (max-width: 768px){
+
+  .block--double, .block--triple {
+    width: 100%;
+  }
+
+
+}

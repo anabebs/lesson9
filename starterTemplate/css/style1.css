@@ -1,0 +1,22 @@
+body{
+  background-color: lightgray;
+  color: white;
+
+
+}
+
+.container{
+display:grid;
+grid-template-columns: 200px  400px  200px;
+grid-template-rows: 200px  400px  200px;
+grid-gap: 20px;
+
+}
+
+
+
+
+}
+.button.-regular {
+  color: #202129;
+  background-color: #f2f2f2;

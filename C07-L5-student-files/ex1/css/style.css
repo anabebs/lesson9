@@ -1,0 +1,96 @@
+/* Main Styles */
+*{
+  box-sizing: border-box;
+}
+
+
+html {
+  font-size: 16px;
+}
+body {
+  background: #272731;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+h1 {
+  color: #ef874e;
+}
+h2 {
+  color: #EEC36D;
+}
+/*img */
+img{
+  max-width: 100%;
+}
+
+li{
+  display: inline-block;
+}
+
+
+/* Links */
+a {
+  color: pink;
+}
+a:hover, a:focus {
+  color: orange;
+}
+
+/* Display Exercise Styles */
+span {
+  color: turquoise;
+}
+strong {
+  color: pink;
+}
+.div-example {
+  background-color: coral;
+}
+.img-half {
+  max-width: 40%;
+}
+
+/* Position Exercise Examples */
+.cat-background {
+  background-image: url(../images/sphynx-cat.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  min-height: 40em;
+  width: 20%;
+  float:left;
+
+}
+
+.overlay {
+
+}
+
+
+/* EM / REM Exercise Examples */
+.div-font-size {
+  font-size: 4em;
+}
+.div-font-size h2 {
+  color: #63B2FF;
+}
+.h2-em {
+  font-size: 2em;
+}
+.h2-rem {
+  font-size: 2rem;
+}
+.h2-px {
+  font-size: 32px;
+}
+h1{
+
+}
